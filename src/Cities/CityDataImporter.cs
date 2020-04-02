@@ -11,7 +11,7 @@ namespace Cities
 
             List<string[]> rows = new List<string[]>();
 
-            using (StreamReader reader = File.OpenText("city_data.csv"))
+            using (StreamReader reader = File.OpenText("E:\\CoderGirl\\C#\\csharp-exercises\\ramya4792\\Cities\\src\\Cities\\city_data.csv"))
             {
                 while (reader.Peek() >= 0)
                 {
